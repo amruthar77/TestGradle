@@ -20,7 +20,7 @@ pipeline {
 
        stage('Test') {
            steps {
-               sh 'gradle test'  // Run unit tests
+               sh '/opt/gradle/bin/gradle test'  // Run unit tests
            }
         }
 
